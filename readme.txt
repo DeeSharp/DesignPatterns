@@ -1,0 +1,1 @@
+Contains code for the design patterns study - January 2016

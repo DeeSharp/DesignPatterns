@@ -1,0 +1,1 @@
+http://www.codeproject.com/Articles/492900/From-No-Factory-to-Factory-Method
