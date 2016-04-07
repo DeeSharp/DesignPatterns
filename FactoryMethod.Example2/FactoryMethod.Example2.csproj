@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6661D530-75C2-47BB-814C-6F9653CA50A2}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{61CF2EDE-A9DC-4ADC-9271-9CB0FCA5B55D}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApp</RootNamespace>
-    <AssemblyName>ConsoleApp</AssemblyName>
+    <RootNamespace>FactoryMethod.Example2</RootNamespace>
+    <AssemblyName>FactoryMethod.Example2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,33 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FactoryMethod.Day1\FactoryMethod.Day1.csproj">
-      <Project>{a3118801-542b-45fe-b666-69efdec54d45}</Project>
-      <Name>FactoryMethod.Day1</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FactoryMethod.Day4\FactoryMethod.Day4.csproj">
-      <Project>{5e657e4a-c38e-42d5-9796-eb700350844f}</Project>
-      <Name>FactoryMethod.Day4</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FactoryMethod.Example1\FactoryMethod.Example1.csproj">
-      <Project>{98027b0b-f81d-4154-9aea-973567e1f419}</Project>
-      <Name>FactoryMethod.Example1</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FactoryMethod.Example2\FactoryMethod.Example2.csproj">
-      <Project>{61cf2ede-a9dc-4adc-9271-9cb0fca5b55d}</Project>
-      <Name>FactoryMethod.Example2</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FactoryMethod.Example3\FactoryMethod.Example3.csproj">
-      <Project>{7338b0f6-73c5-4d9f-8940-7c26ea138cc0}</Project>
-      <Name>FactoryMethod.Example3</Name>
-    </ProjectReference>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

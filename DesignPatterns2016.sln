@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{4EAD68E3-8257-4D2B-9FDA-077191FAF27C}"
 	ProjectSection(SolutionItems) = preProject
+		definition.txt = definition.txt
 		PatternSource.txt = PatternSource.txt
 	EndProjectSection
 EndProject
@@ -22,6 +23,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.Day4", "FactoryMethod.Day4\FactoryMethod.Day4.csproj", "{5E657E4A-C38E-42D5-9796-EB700350844F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.Example1", "FactoryMethod.Example1\FactoryMethod.Example1.csproj", "{98027B0B-F81D-4154-9AEA-973567E1F419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.Example2", "FactoryMethod.Example2\FactoryMethod.Example2.csproj", "{61CF2EDE-A9DC-4ADC-9271-9CB0FCA5B55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.Example3", "FactoryMethod.Example3\FactoryMethod.Example3.csproj", "{7338B0F6-73C5-4D9F-8940-7C26EA138CC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +50,14 @@ Global
 		{98027B0B-F81D-4154-9AEA-973567E1F419}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98027B0B-F81D-4154-9AEA-973567E1F419}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98027B0B-F81D-4154-9AEA-973567E1F419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CF2EDE-A9DC-4ADC-9271-9CB0FCA5B55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CF2EDE-A9DC-4ADC-9271-9CB0FCA5B55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CF2EDE-A9DC-4ADC-9271-9CB0FCA5B55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CF2EDE-A9DC-4ADC-9271-9CB0FCA5B55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7338B0F6-73C5-4D9F-8940-7C26EA138CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7338B0F6-73C5-4D9F-8940-7C26EA138CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7338B0F6-73C5-4D9F-8940-7C26EA138CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7338B0F6-73C5-4D9F-8940-7C26EA138CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +67,7 @@ Global
 		{A3118801-542B-45FE-B666-69EFDEC54D45} = {4EAD68E3-8257-4D2B-9FDA-077191FAF27C}
 		{5E657E4A-C38E-42D5-9796-EB700350844F} = {4EAD68E3-8257-4D2B-9FDA-077191FAF27C}
 		{98027B0B-F81D-4154-9AEA-973567E1F419} = {4EAD68E3-8257-4D2B-9FDA-077191FAF27C}
+		{61CF2EDE-A9DC-4ADC-9271-9CB0FCA5B55D} = {4EAD68E3-8257-4D2B-9FDA-077191FAF27C}
+		{7338B0F6-73C5-4D9F-8940-7C26EA138CC0} = {4EAD68E3-8257-4D2B-9FDA-077191FAF27C}
 	EndGlobalSection
 EndGlobal

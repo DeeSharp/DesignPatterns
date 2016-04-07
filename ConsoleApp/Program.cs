@@ -1,6 +1,8 @@
 ﻿using FactoryMethod.Day1;
 using FactoryMethod.Day4;
 using FactoryMethod.Example1;
+using FactoryMethod.Example2;
+using FactoryMethod.Example3;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +18,32 @@ namespace ConsoleApp
             //ShowDay1();
             //ShowDay4();
 
-            ShowExample1();
+            //ShowExample1();
+            //ShowExample2();
+            //ShowExample3();
+            Console.WriteLine(ShowReturnValue());
+        }
+
+        private static string ShowReturnValue()
+        {
+            return "Foo";
+        }
+
+        private static void ShowExample3()
+        {
+            var document = new Resume();
+            document.PrintPages();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            var doc = new Report();
+            doc.PrintPages();
+        }
+
+        private static void ShowExample2()
+        {
+            var factory = new ConcreteComputerFactory();
+            new ComputerAssembler().AssembleComputer(factory);
         }
 
         private static void ShowExample1()
